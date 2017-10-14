@@ -44,7 +44,7 @@ First release of the SharePoint Framework will contain support for client-side w
 - Enable modern extension usage with modern experiences similar as Custom Actions and JS Link in classic experience
 - Work with NoScript via tenant app catalog
 
-> This is now available in [developer preview](https://dev.office.com/blogs/announcing-availability-of-sharepoint-framework-extensions-developer-preview).
+> SharePoint Framework Extensions are available in all Office 365 tenants for production usage.
 
 ## Application Lifecycle Management
 

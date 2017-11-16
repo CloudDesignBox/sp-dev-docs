@@ -257,7 +257,7 @@ Now that we have tested our solution properly in debug mode, we can package this
 1. Install the solution package to the site where it should be installed, so that the extension manifest is white listed for execution.
 
 2. Associate the Field Customizer to an existing field in the site. You can do this programmatically (CSOM/REST) or by using the feature framework inside of the SharePoint Framework solution package. You'll need to associate the following properties in the `SPField` object at the site or list level.
-    - **ClientSiteComponentId** is the identifier (GUID) of the Field Customizer, which has been installed in the App Catalog.
+    - **ClientSideComponentId** is the identifier (GUID) of the Field Customizer, which has been installed in the App Catalog.
     - **ClientSideComponentProperties** is an optional parameter, which can be used to provide properties for the Field Customizer instance.
 
     Note that you can control the requirement to add a solution containing your extension to the site by using the `skipFeatureDeployment` setting in **package-solution.json**. Even though you would not require the solution to be installed on the site, you'd need to associate **ClientSideComponentId** to specific objects for the extension to be visible.

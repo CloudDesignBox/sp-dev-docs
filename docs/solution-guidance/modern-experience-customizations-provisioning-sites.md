@@ -220,7 +220,7 @@ using (var context = new ClientContext(targetTenantUrl))
 
 As you can see, the extension method creates a new "modern" communication site and returns a new _ClientContext_ object directly connected to the newly created site.
 
-#### Provisioning a "modern" team site using PnP PowerShell
+#### Provisioning a "modern" communication site using PnP PowerShell
 
 The following script will create a "modern" communication site and then return the actual SharePoint site URL for further manipulation, as like as it was in the previous example with "modern" team sites.
 
